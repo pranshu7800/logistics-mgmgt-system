@@ -1,0 +1,29 @@
+CREATE TABLE customers (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(100),
+    address VARCHAR(255),
+    contact VARCHAR(15)
+);
+
+CREATE TABLE vehicles (
+    id SERIAL PRIMARY KEY,
+    type VARCHAR(50),
+    capacity VARCHAR(50)
+);
+
+CREATE TABLE employees (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(100),
+    role VARCHAR(50)
+);
+
+CREATE TABLE shipments (
+    id SERIAL PRIMARY KEY,
+    origin VARCHAR(255),
+    destination VARCHAR(255),
+    weight VARCHAR(50),
+    status VARCHAR(50),
+    customer_id INTEGER REFERENCES customers(id),
+    vehicle_id INTEGER REFERENCES vehicles(id),
+    employee_id INTEGER REFERENCES employees(id)
+);

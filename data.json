@@ -1,0 +1,135 @@
+{
+    "customers": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "address": "123 Main Street, New York, USA",
+            "contact": "1234567890"
+        },
+        {
+            "id": 2,
+            "name": "Jane Smith",
+            "address": "456 Park Avenue, London, UK",
+            "contact": "0987654321"
+        },
+        {
+            "id": 3,
+            "name": "Carlos Garcia",
+            "address": "789 Central Plaza, Madrid, Spain",
+            "contact": "1122334455"
+        },
+        {
+            "id": 4,
+            "name": "Marie Dubois",
+            "address": "321 Rue de la Paix, Paris, France",
+            "contact": "2233445566"
+        },
+        {
+            "id": 5,
+            "name": "Heinz Schmidt",
+            "address": "654 Bismarckstrasse, Berlin, Germany",
+            "contact": "3344556677"
+        }
+    ],
+    "vehicles": [
+        {
+            "id": 1,
+            "type": "Volvo FH",
+            "capacity": "40 Tons"
+        },
+        {
+            "id": 2,
+            "type": "Mercedes-Benz Actros",
+            "capacity": "36 Tons"
+        },
+        {
+            "id": 3,
+            "type": "Scania R Series",
+            "capacity": "44 Tons"
+        },
+        {
+            "id": 4,
+            "type": "DAF XF",
+            "capacity": "38 Tons"
+        },
+        {
+            "id": 5,
+            "type": "MAN TGX",
+            "capacity": "41 Tons"
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "name": "Robert Johnson",
+            "role": "Driver"
+        },
+        {
+            "id": 2,
+            "name": "Emily Thompson",
+            "role": "Coordinator"
+        },
+        {
+            "id": 3,
+            "name": "Michael Brown",
+            "role": "Manager"
+        },
+        {
+            "id": 4,
+            "name": "Linda Taylor",
+            "role": "Dispatcher"
+        },
+        {
+            "id": 5,
+            "name": "James Anderson",
+            "role": "Mechanic"
+        }
+    ],
+    "shipments": [
+        {
+            "id": 1,
+            "origin": "New York, USA",
+            "destination": "London, UK",
+            "status": "In Transit",
+            "customer_id": 1,
+            "vehicle_id": 1,
+            "employee_id": 1
+        },
+        {
+            "id": 2,
+            "origin": "Madrid, Spain",
+            "destination": "Paris, France",
+            "status": "Delivered",
+            "customer_id": 2,
+            "vehicle_id": 2,
+            "employee_id": 2
+        },
+        {
+            "id": 3,
+            "origin": "Berlin, Germany",
+            "destination": "New York, USA",
+            "status": "Pending",
+            "customer_id": 3,
+            "vehicle_id": 3,
+            "employee_id": 3
+        },
+        {
+            "id": 4,
+            "origin": "London, UK",
+            "destination": "Madrid, Spain",
+            "status": "In Transit",
+            "customer_id": 4,
+            "vehicle_id": 4,
+            "employee_id": 4
+        },
+        {
+            "id": 5,
+            "origin": "Paris, France",
+            "destination": "Berlin, Germany",
+            "status": "Delivered",
+            "customer_id": 5,
+            "vehicle_id": 5,
+            "employee_id": 5
+        }
+    ]
+}
